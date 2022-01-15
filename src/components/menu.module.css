@@ -1,0 +1,11 @@
+.menuList {
+  list-style: none;
+  background-color: lightgrey;
+  width: 100%;
+  height: auto;
+}
+
+.listItem:hover {
+  cursor: pointer;
+  color: green;
+}

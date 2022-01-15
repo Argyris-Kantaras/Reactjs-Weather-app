@@ -1,0 +1,33 @@
+.astronomyMainContainer {
+  text-align: center;
+  height: 300px;
+  position: relative;
+  top: 100px;
+  color: white;
+}
+
+.moonDetails {
+  background-image: url("../icons/moon-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  z-index: 1;
+}
+
+.sunDetails {
+  display: inline-block;
+  width: 20%;
+}
+
+.sunIcon {
+  width: 8%;
+}
+
+.moonInfo {
+  position: relative;
+  left: 20%;
+  color: beige;
+  font-size: 20px;
+}

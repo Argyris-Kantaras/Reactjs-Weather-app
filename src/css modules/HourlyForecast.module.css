@@ -1,0 +1,52 @@
+.hourlyContainer {
+  position: absolute;
+  top: 62%;
+  z-index: 5;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.everyDay {
+  display: none;
+  background-color: rgba(21, 21, 21, 0.8);
+  margin: 1em 0em 1em 0em;
+  height: 25em;
+  overflow-x: scroll;
+}
+
+.everyHour {
+  background-color: rgb(255, 255, 244);
+  margin: 1em 2.25em 1em 2.25em;
+  padding: 1em;
+  width: 8.5rem;
+  height: 17rem;
+  position: relative;
+  top: 10%;
+  border-radius: 1.5em;
+}
+
+.everyHour label {
+  color: rgb(145, 143, 143);
+}
+
+.xBtn {
+  display: none;
+  position: absolute;
+  left: 94%;
+  top: 5%;
+  z-index: 10;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: 0.2s;
+}
+.xBtn:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  .hourlyContainer {
+    top: 140%;
+  }
+}

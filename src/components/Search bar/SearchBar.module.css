@@ -1,0 +1,29 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  position: relative;
+  top: 5%;
+  left: 10%;
+}
+
+.form {
+  display: flex;
+}
+
+.form input {
+  border: 0px;
+  border-left: 1px solid;
+  border-radius: 20%;
+  outline: none;
+}
+.goBtn {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.goBtn:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}

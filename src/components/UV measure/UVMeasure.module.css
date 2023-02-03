@@ -1,0 +1,53 @@
+.base {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50%;
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: 10px 10px 10px;
+  grid-template-rows: 10px 10px;
+  gap: 2.4rem;
+  position: absolute;
+}
+.numbers span {
+  margin-right: 1.1em;
+  margin-left: 0.9em;
+  font-size: 1.2em;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.centralNumber {
+  margin-bottom: 10%;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.measure {
+  transition: 0.4s;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 10em;
+  border: 20px solid rgb(226, 226, 226);
+  border-bottom: 20px solid rgb(255, 145, 0);
+  border-left: 20px solid rgb(255, 145, 0);
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  transform: rotate(-40deg);
+  bottom: 100%;
+  position: relative;
+}
+.container {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  height: 4.5rem;
+  width: 100%;
+  margin-top: -50%;
+  z-index: 2;
+}

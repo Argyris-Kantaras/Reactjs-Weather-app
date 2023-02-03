@@ -4,7 +4,6 @@ const getCurrentLocation = function (setState) {
       const lat = position.coords.latitude;
       const lng = position.coords.longitude;
       setState(`${lat}, ${lng}`);
-      console.log(position);
     },
     (reject) => {
       console.error(reject);

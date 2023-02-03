@@ -1,0 +1,37 @@
+.footer {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  color: rgba(0, 0, 0, 0.6);
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.footer img {
+  width: 2em;
+}
+
+.footer img:hover {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.footer span {
+  margin: 1em;
+}
+
+.links {
+  width: 100%;
+  text-align: center;
+}
+
+.contactMeContainer {
+  border-bottom: 1px solid;
+}
+
+@media only screen and (max-width: 800px) {
+  .footer img {
+    width: 1.5em;
+  }
+}

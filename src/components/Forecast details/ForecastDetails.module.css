@@ -1,0 +1,114 @@
+.allDetails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.highlight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15rem;
+  height: 15rem;
+  background-color: white;
+  margin: 2.5em;
+  border-radius: 1em;
+}
+
+.highlightWind {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15rem;
+  height: 15rem;
+  background-color: white;
+  margin: 2.5em;
+  border-radius: 1em;
+  background-image: url("D:\Projects\My testing web\the-weather-app\src\icons\wind-icon.png");
+  background-position: bottom right;
+  background-size: 6em;
+  background-repeat: no-repeat;
+}
+
+.humidityHighlight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15rem;
+  height: 15rem;
+  background-color: white;
+  margin: 2.5em;
+  border-radius: 1em;
+  background-image: url("D:\Projects\My testing web\the-weather-app\src\icons\drops.png");
+  background-position: bottom;
+  background-size: 10rem;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+.valueContainer {
+  position: relative;
+  top: 30%;
+}
+
+.temperatures {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 30%;
+}
+
+.arrows {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-size: 2.5rem;
+}
+
+.UVValue {
+  font-size: 2.5rem;
+  margin-top: -40%;
+  z-index: 4;
+}
+
+.hotArrow {
+  width: 2em;
+  transform: rotate(180deg);
+  margin-right: 1em;
+  position: relative;
+  right: 10%;
+  margin-bottom: 1em;
+}
+
+.coldArrow {
+  width: 2em;
+  margin-right: 1em;
+  position: relative;
+  right: 10%;
+}
+
+.label {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.sign {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1.2em;
+}
+
+.emoji {
+  font-size: 1.5em;
+}
+
+.daysHighlights {
+  width: 70%;
+  color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}

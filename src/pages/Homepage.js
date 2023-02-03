@@ -1,11 +1,10 @@
-import Header from "../components/Header";
+import Header from "../components/Search bar/SearchBar";
 import styles from "./Homepage.module.css";
 import { useEffect, useState } from "react";
 import getCurrentLocation from "../handlers/getCurrentLocation";
-import ShowCurrentWeatherResults from "../components/ShowCurrentWeatherResults";
+import ShowCurrentWeatherResults from "../components/Current weather/ShowCurrentWeatherResults";
 import LocaleContext from "../hooks/locale-context";
-import Show3DaysForecast from "../components/Show3DaysForecast";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer";
 
 function Homepage() {
   const [location, setLocation] = useState("");
@@ -16,9 +15,8 @@ function Homepage() {
   return (
     <LocaleContext.Provider value={{ location: location }}>
       <div className={styles.mainPage}>
-        <Header setState={setLocation} />
-        <ShowCurrentWeatherResults />
-        <Show3DaysForecast />
+        <h1 className={styles.appName}>Worldwide Weather</h1>
+        <ShowCurrentWeatherResults setLocation={setLocation} />
         <Footer />
       </div>
     </LocaleContext.Provider>

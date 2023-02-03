@@ -1,9 +1,11 @@
 .mainPage {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  text-align: center;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(68, 87, 230) 30%,
-    rgb(254, 244, 147) 100%
-  );
+  align-items: center;
+  background-color: rgba(233, 160, 51, 0.6);
+}
+
+.appName {
+  color: rgba(0, 0, 0, 0.6);
 }

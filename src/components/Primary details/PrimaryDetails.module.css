@@ -1,0 +1,113 @@
+.primaryContainer {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 2rem;
+  background-color: white;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+  border-top-left-radius: 3em;
+  border-bottom-left-radius: 3em;
+  height: 95.5%;
+}
+.mainIcon {
+  width: 100%;
+  margin-top: 3em;
+}
+.tempInfo {
+  display: flex;
+  align-items: baseline;
+  position: relative;
+  left: 10%;
+  margin-bottom: 2rem;
+}
+.currentTemperature {
+  font-size: 4.5rem;
+}
+
+.degrees {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.today {
+  font-size: 1.8rem;
+  position: relative;
+  left: 20%;
+}
+.currTime {
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  position: relative;
+  left: 20%;
+}
+.divider {
+  width: 50%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  position: relative;
+  left: 25%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.currText {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 10%;
+}
+.dataIcon {
+}
+.text {
+  font-size: 1.2rem;
+  position: relative;
+  left: 5%;
+}
+.feelsLike {
+  font-size: 1.2rem;
+  position: relative;
+  left: 10%;
+}
+.feelsLikeTemp {
+  font-size: 2rem;
+  position: relative;
+  left: 10%;
+}
+.feelsLikeDeg {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  left: 10%;
+}
+
+.location {
+  position: relative;
+  left: 25%;
+  width: 50%;
+  text-align: center;
+  border-radius: 5em;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  margin-top: 2em;
+}
+
+@media only screen and (max-width: 800px) {
+  .primaryContainer {
+    width: 100%;
+    align-items: flex-start;
+    margin-left: 0;
+    border-radius: 2rem;
+  }
+  .mainIcon {
+    width: 50%;
+  }
+  .currentTemperature {
+    font-size: 3rem;
+  }
+  .feelsLike {
+    font-size: 1rem;
+  }
+}

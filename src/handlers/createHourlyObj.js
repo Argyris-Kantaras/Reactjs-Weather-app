@@ -11,6 +11,7 @@ const createHourlyObj = function (data) {
     windMph: data.wind_mph,
     tempC: data.temp_c,
     tempF: data.temp_f,
+    isDay: data.is_day,
   };
   return obj;
 };

@@ -3,9 +3,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(233, 160, 51, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .appName {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255);
 }

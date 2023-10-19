@@ -1,0 +1,50 @@
+.dailyGeneralInfo {
+  position: relative;
+  left: 5%;
+}
+
+.weatherForecasts {
+  margin-top: 5%;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.text {
+  /* margin-bottom: 5%; */
+  font-size: 50px;
+  font-family: serif;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.date {
+  margin-bottom: 2%;
+  color: white;
+  font-size: 22px;
+  /* font-family: ; */
+  font-weight: bold;
+  color: orange;
+}
+
+.temp {
+  height: 50px;
+  font-family: serif;
+  font-style: italic;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 2px;
+  color: rgba(255, 255, 255, 0.9);
+  float: left;
+}
+
+.selectedText {
+  text-align: left;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.7);
+  width: 30%;
+}
+
+@media only screen and (max-width: 800px) {
+  .selectedText {
+    width: 90%;
+  }
+}

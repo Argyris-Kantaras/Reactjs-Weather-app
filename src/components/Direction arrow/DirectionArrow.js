@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import direction from "../../icons/north-arrow2.png";
+import direction from "../../icons/arrow-orange.png";
 
 function DirectionArrow(props) {
   const arrowRef = useRef();

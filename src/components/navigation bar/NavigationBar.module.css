@@ -1,0 +1,53 @@
+.dayPickBtns {
+  display: flex;
+  align-items: center;
+}
+
+.dayPick {
+  margin: 1rem;
+  padding: 0.5em;
+  border-bottom: 1px white solid;
+  cursor: pointer;
+  color: white;
+}
+
+.dayPick:hover {
+  color: orange;
+}
+
+.degreesSigns {
+  position: relative;
+  left: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.degree {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0.5em;
+  padding: 0.3em;
+  border-bottom: 1px white solid;
+  cursor: pointer;
+}
+
+.degree:hover {
+  color: orange;
+}
+
+@media only screen and (max-width: 800px) {
+  .forecastsContainer {
+    width: 100%;
+  }
+  .dayPickBtns {
+    position: relative;
+    top: 1%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .degreesSigns {
+    left: 0;
+    align-items: center;
+  }
+}

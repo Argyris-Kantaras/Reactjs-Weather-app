@@ -1,6 +1,13 @@
 .resultsContainer {
   display: flex;
   width: 95%;
+  height: 1200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 3em;
+  border-bottom-left-radius: 3em;
+  transition: 0.7s;
 }
 
 .allDetails {
@@ -12,6 +19,7 @@
 @media only screen and (max-width: 800px) {
   .resultsContainer {
     width: 100%;
+    height: auto;
   }
   .allDetails {
     display: flex;

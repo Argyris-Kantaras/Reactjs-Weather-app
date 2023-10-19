@@ -15,7 +15,7 @@ function Homepage() {
   return (
     <LocaleContext.Provider value={{ location: location }}>
       <div className={styles.mainPage}>
-        <h1 className={styles.appName}>Worldwide Weather</h1>
+        <h1 className={styles.appName}>Weather Forecasts</h1>
         <ShowCurrentWeatherResults setLocation={setLocation} />
         <Footer />
       </div>
